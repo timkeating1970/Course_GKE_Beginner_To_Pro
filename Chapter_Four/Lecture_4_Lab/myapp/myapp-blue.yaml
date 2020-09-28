@@ -17,8 +17,7 @@ spec:
         version: blue
     spec:
       containers:
-      - name: myapp
-        image: gcr.io/tim-acloud-guru/myapp:blue
-        ports:
-        - containerPort: 8888
-
+        - name: myapp
+          image: gcr.io/tim-acloud-guru/myapp:blue
+          ports:
+            - containerPort: 9999
